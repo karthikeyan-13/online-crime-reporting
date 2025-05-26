@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Reporting System- Report A Crime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<img src="image/img1.jpg" class="image" alt="background image"> 
+	<nav>
+		<div class="logo">
+			<p> Crime Reporting System </p>
+		</div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="about.html">Contact the Developers</a></li>
+			<li><a href="adminlogin.html">ADMINISTRATOR LOGIN</a></li>
+		</ul>
+	</nav>
+	<br><br><br><br>
+	
+	<div class="page-wrapper">
+	
+		
+		<div class="container">
+			<span class="heading"> <h1>Report A Crime </h1> </span>
+    
+			<br>
+
+			<form action="index.php" method="POST">
+			
+				<input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+				<input type="email" name="email" id="email" placeholder="Enter Your Email ID" required>
+				<input type="text" name="age" id="age" placeholder="Enter Your Age" required>
+				<input type="text" name="gender" id="gender" placeholder="Enter Your Gender (M/F)" required>
+				<input type="phone" name="phone" id="phone" placeholder="Enter Your Phone Number (max. 10 characters)" required>
+				<input type="aadhaar" name="aadhaar" id="aadhaar" placeholder="Enter Your AADHAAR Enrollment Number (max. 16 characters)" required>
+				<input type="place" name="place" id="place" placeholder="Enter the Location of the Crime" required>
+				<textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter the details of the crime, i.e., how did the attack take place, the details of the victims, any information about the criminals, and the details of the eyewitnesses, if present at the location. " required></textarea>
+				<button class="btn">Submit </button>
+				<!-- <button class="btn">Reset </button>  -->
+			</form>
+		
+		</div>
+		
+		<!--FOOTER 
+		<div class="footer">
+			<div class="footer-content">
+				<div class="footer-content about"> 
+				
+				</div>
+				<div class="footer-content developers"> 
+				
+				</div>
+				<div class="footer-content contact-form"> 
+				
+				</div>
+			</div>
+			<div class="footer-bottom">
+				&copy; reportacrime.com | Designed by Divya Joshi
+			</div>
+		</div> -->
+		
+	</div>
+</body>
+</head>
